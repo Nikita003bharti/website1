@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    vertical-align: top;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+div,
+span,
+button,
+img,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header {
+    background-color: white;
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    padding: 15px 0;
+}
+
+.logo a {
+    font-size: 45px;
+    font-family: "Sour Gummy", serif;
+    font-weight: 600;
+}
+
+.menu {
+    width: 60%;
+    padding: 0 15px;
+}
+
+.menu ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.centre {
+    align-items: center;
+}
+
+.menu ul li {
+    font-size: 25px;
+    font-family: "Sour Gummy", serif;
+}
+
+.menu ul li a {
+    color: rgb(6, 38, 39);
+}
+
+.menu ul li :hover {
+    color: brown;
+
+}
+
+.icons {
+    width: 20%;
+    padding: 15px 0;
+}
+
+.icons ul {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    column-gap: 22px;
+
+
+}
+
+.menu ul li {
+    align-items: center;
+}
+
+#banner {
+    width: 100%;
+   
+   background-color: #ddd1c1;
+    padding: 0 15px;
+   
+    
+
+
+}
+
+.text-side {
+    width: 50%;
+    padding: 15px 0;
+}
+
+.side-div {
+    width: 100%;
+}
+
+.text-side h1 {
+    font-size: 182px;
+
+}
+
+.text-side p {
+    font-size: 20px;
+}
+
+
+.img-div {
+    width: 50%;
+    padding: 0 15px;
+
+}
+
+.img-div img {
+    width: 100%;
+
+
+
+}
+
+#next-banner{
+    width: 100%;
+    padding: 15px 0;
+    
+    
+}
+
+.slide-img{
+    width: 25%;
+    padding: 0 15px;
+    display: flex;
+   
+    
+}
+
+/* .slide-div{
+    width: 100%;
+    
+    
+} */
+
+.slide-div img{
+    width: 100%;
+    padding: 0 15px;
+}
